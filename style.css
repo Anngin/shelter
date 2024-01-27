@@ -1,0 +1,161 @@
+p{
+    font-family: 'EB Garamond', serif;
+   font-size: 90px;
+   text-align: center;
+    padding: 90px;
+    margin: 30px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    width:2800px ;
+    padding-top: 10px;
+    margin:0 auto;
+    box-shadow: 16px 11px 28px -7px rgba(140, 0, 255, 0.54);
+}
+nav ul{
+    display: flex;
+    margin-top: 50px;
+}
+nav ul li{
+    margin-left: 80px;
+    list-style: none;
+}
+
+a:hover{
+    color: blueviolet;
+    transition: all 300ms ease-in-out;
+    background-color: rgb(102, 102, 245);
+}
+header{
+    background-color: rgb(229, 229, 229);
+}
+.about{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    width: 1200px;
+    margin:  210 auto 0 auto;
+    height: 800px;
+}
+.items:first-child{
+    padding-bottom:100px ;
+}
+.items:last-child{
+    padding-top: 100px;
+}
+.about{
+    width: 1000px;
+margin: 0 auto;
+}
+.infografica{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around ;
+    align-items: center;
+    margin:auto ;
+    width: 2200px;
+    height: 500px;
+    background-color: rgba(180, 106, 249, 0.681) ;
+
+}
+.card h2{
+padding-bottom: 10px;
+padding-top: 30px;
+}
+.gallery{
+    width: 3090px;
+    height: 2722px;
+    margin: 0 auto;
+}
+
+.line-1{
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.line-1, .line-2{
+    display: flex;
+    justify-content: space-around;
+    background-color: #aeaeaec3;
+    padding: 20px;
+}
+.group{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.group img{
+    margin-right: 50px;
+    z-index: 10;
+}
+
+.group h1{
+    background-color: #ab6565;
+    padding-left: 40px;
+    position: absolute;
+    left: 90px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 10px;
+} 
+footer{
+    display: flex;
+    
+ }
+ .footer_col{
+     flex: 50%;
+ padding-left: 40px;
+ height: 100px;
+ text-align: center;
+ margin-top: 30px;
+ }
+ footer{
+    background-color: rgb(129, 129, 129);
+    height: 900px;
+    width: 7000px;
+}
+.items{
+    margin: 90px;
+    width:700px;
+}
+h4{
+    font-size: 25px;
+}
+h2{
+    font-size: 50px;
+}
+.ask{
+    margin: 15px;
+    font-size: 40px;
+}
+.help{
+    margin: 50px;
+    font-size: 40px;
+}
+.group img {
+    z-index: 10;
+    border-radius: 100%;
+    width: 900px;
+    height: 900px; 
+}
+h4{
+    font-size: 37px;
+    margin: 20px;
+}
